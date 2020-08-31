@@ -1,6 +1,8 @@
 import React from 'react';
 import TodoForm from './components/TodoForm'
 import TodoList from './components/TodoList'
+import './components/Todo.css'
+
 
 const todoData =[
   {
@@ -26,9 +28,6 @@ class App extends React.Component {
     };
   }
   
-
-
-
 toggleList = (addedItem) => {
   this.setState({
     todo: this.state.todo.map((item) => {

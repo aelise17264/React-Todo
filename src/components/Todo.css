@@ -1,0 +1,12 @@
+
+
+.item{
+    color: blue;
+    font-weight: bold;
+}
+
+.itemcompleted {
+  color: black;
+ text-decoration: line-through;
+}
+
