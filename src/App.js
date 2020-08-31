@@ -54,6 +54,17 @@ addList = (itemName) => {
   })
 }
 
+clearList = () => {
+ let unfinishedTasks = this.state.todo.filter((task) => {
+  if(!task.completed)
+  return task
+ })
+ this.setState({
+   todo: unfinishedTasks
+ })
+
+}
+
   render() {
     return (
       <div className='App'>
@@ -65,6 +76,7 @@ addList = (itemName) => {
           <TodoList
           todo={this.state.todo}
           toggleList={this.toggleList}
+          clearList={this.clearList}
           />
         </div>
         
