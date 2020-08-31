@@ -8,7 +8,7 @@ const Todo = (props)=> {
         className={`item${props.item.completed ? "completed" : ""}`}
        
           >
-              <p>{props.item.task}</p>
+              <p>📌{props.item.task}</p>
           </div>
         );
 

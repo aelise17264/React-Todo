@@ -16,6 +16,7 @@ class TodoForm extends React.Component {
     submitList = event => {
         event.preventDefault();
         this.props.addList(this.state.item)
+        
     }
 
     render() {
@@ -27,8 +28,9 @@ class TodoForm extends React.Component {
             name='item'
             value={this.state.item}
             onChange={this.listChanges}
+            onClick='this.form.reset()'
             />
-            <button>Add Todo</button>
+            <button >Add Todo</button>
             
           </form>
         );
