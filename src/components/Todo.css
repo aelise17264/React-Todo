@@ -1,0 +1,64 @@
+
+body{
+  background: url(https://i.pinimg.com/originals/6a/a4/e4/6aa4e4f24c40d1db81a41b5e09cbe664.jpg);
+background-position: center;
+padding-left: 5%;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.App{
+  align-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.item{
+    color: #515070;
+    font-weight: bold;
+}
+
+.itemcompleted {
+  color: black;
+ text-decoration: line-through;
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 15vw;
+
+}
+
+h1{
+  align-items: center;
+  margin-left: 12%;
+  font-size: 2.5rem;
+  
+}
+
+input{
+  align-items: center;
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  background-color: #b2ebf2;
+ 
+}
+
+button{
+  margin: 2%;
+  align-items: center;
+  margin-left: 32%;
+  background-color: #ee6f57;
+  color: #00416D;
+}
+
+.clearButton{
+  margin: 2%;
+  align-items: center;
+  margin-left: 25%;
+}
